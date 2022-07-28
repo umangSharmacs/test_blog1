@@ -1,0 +1,64 @@
+baseURL: http://umangsharmacs.github.io/
+languageCode: en-us
+title: Subtle Seattle
+theme: "PaperMod"
+
+params:
+  profileMode:
+    enabled: true
+    subtitle: "For the traveller in you"
+    imageUrl: "/DSC_1750.jpg"
+    imageWidth: 400 # custom size
+    imageHeight: 400
+    buttons:
+    - name: Let's Start
+      url: "/posts"
+
+
+  homeInfoParams:
+    Title: "Subtle Seattle"
+    Content:  For the Traveller in you
+  
+  SocialIcons:
+    - name: facebook
+      url:
+    - name: instagram
+      url:
+    - name: twitter
+      url:
+
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  author: "Charvee Sharma"
+
+
+
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 20
+
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 30
+
+    - identifier: author
+      name: About the Author
+      url: /author/
+      weight: 40
+
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 50
+
